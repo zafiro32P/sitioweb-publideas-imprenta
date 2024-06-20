@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL | IMPRENTA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <!--Es para que gafarre los iconos-->
+		<link rel="stylesheet" href="css/estilos.css"/>
+		<link rel="stylesheet" href="sesion.html">
+		<script src="js/menu.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <img src="img/logo.png" width="110px" class="logo" alt="logo">
+                </div>
+                <div class="container-user">
+                    <i class="fa-solid fa-user-tie"><a href="#"></a></i>
+                </div>
+            </div>
+        </div>
+         <!--Menu-->
+        <div class="container-navbar">
+            <nav class="navbar container">
+
+                    <section class="menu__container">
+                        <ul class="menu__links">
+                            <li class="menu__item">
+                                <a href="administrador.html" class="menu__link">Inicio</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="categorias.html" class="menu__link">Categorias</a>
+                            </li>
+                        </ul>
+                        <div class="menu__hamburguer">
+                            <img src="img/hamburguesa.svg" class="menu__img">
+                        </div>
+                    </section>
+                 <!--Barra de busqueda-->
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <!--Empieza el Main-->
+    <main class="main-content">
+        <section class="tabla">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+            <h1 class="heading-1">Lista de Productos</h1>
+            <div class="tabla-responsiva">
+                <table class="table align-middle tabla-margen">
+                  <thead>
+                    <tr>
+                        <th scope="col" class="margen">Imagen</th>
+                        <th scope="col">Producto</th>
+                        <th scope="col" class="descripcion-columna">Descripción</th>
+                        <th scope="col">Material</th>
+                        <th scope="col">Tamaño</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Disponiblidad</th>
+                        <th scope="col">Categoría</th>
+                        <th scope="col">Opciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <tbody class="table-group-divider">
+                            <tr>
+                              <th><img src="img/Tarjeta rosa.jpg" width="150px" alt=""></th>
+                              <td>Tarjetas de presentación</td>
+                              <td>El precio va dependiendo por la cantidad de piezas, ejemplo 100pz por $278.21 y $2.78 por unidad, el papel que se utiliza para su eleboracion es couché.</td>
+                              <td>papel couché</td>
+                              <td>9 x 5 cm</td>
+                              <td>$2.78</td>
+                              <td>disponible</td>
+                              <td>Papelería</td>
+                            <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                            </td>
+                            </tr>
+                    </tr>
+                    <tr>
+                        <th><img src="img/posters.jpg" width="150px" alt=""></th>
+                        <td>Posters</td>
+                        <td>Este producto esta en la venta por mayoreo y por unidad, papele se utiliza es couche de 150gramos.</td>
+                        <td>papel couché</td>
+                        <td>35 x 45 cm</td>
+                        <td>$20</td>
+                        <td>disponible</td>
+                        <td>Papelería</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/folleto.jpg" width="150px" alt=""></th>
+                        <td>Folletos</td>
+                        <td>El milla 380 a color ambos lados.</td>
+                        <td>papel couche</td>
+                        <td>13.97 x 21.59 cm</td>
+                        <td>$3.80</td>
+                        <td>disponible</td>
+                        <td>Papelería</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/lona1.jpg" width="150px" alt=""></th>
+                        <td>Letreros tipo pantalla</td>
+                        <td>El precio es definido por los metros cudrados que el cliente solicite. No incluye instalación.</td>
+                        <td>Policloruro de Vinilo</td>
+                        <td>100cm</td>
+                        <td>$70</td>
+                        <td>disponible</td>
+                        <td>Gran Formato</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/lona2.jpg" width="150px" alt=""></th>
+                        <td>Lonas</td>
+                        <td>El precio es definido por los metros cudrados que el cliente solicite.No incluye istalacion.</td>
+                        <td>Policloruro de Vinilo</td>
+                        <td>100cm</td>
+                        <td>$60</td>
+                        <td>disponible</td>
+                        <td>Gran Formato</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/lona3.jpg" width="150px" alt=""></th>
+                        <td>Exterior impresión full</td>
+                        <td>El precio es definido por los metros cudrados que el cliente solicite.</td>
+                        <td>Vinil Laminado</td>
+                        <td>100cm</td>
+                        <td>$90</td>
+                        <td>disponible</td>
+                        <td>Gran Formato</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/tazaDorada.jpg" width="150px" alt=""></th>
+                        <td>Taza Personalizada</td>
+                        <td>El precio es de menudeo y mayoreo</td>
+                        <td>Cerámica</td>
+                        <td>325ml</td>
+                        <td>$25</td>
+                        <td>disponible</td>
+                        <td>Personalización</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/cuaderno.jpg" width="150px" alt=""></th>
+                        <td>Agenda Personalizada</td>
+                        <td>Libretas y Agendas personalizadas ideal como regalo original de cumpleaños, bautizos, comuniones, bodas, etc. Con 80 hojas en bond blanco de 75 grs. impresas a una tinta, por ambas caras (mismo diseño) En pasta dura impresión a color con terminado mate o brillante</td>
+                        <td>papel couche</td>
+                        <td>Folio</td>
+                        <td>$120</td>
+                        <td>disponible</td>
+                        <td>Personalización</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <th><img src="img/termos.jpg" width="150px" alt=""></th>
+                        <td>Termo Personalizado</td>
+                        <td>Ideales para las campañas publicitarias. Los mejores promocionales para bebidas.</td>
+                        <td>Aluminio</td>
+                        <td>750 ml</td>
+                        <td>$80</td>
+                        <td>disponible</td>
+                        <td>Personalización</td>
+                      <td><button type="button" class="btn btn-outline-dark">Editar</button>
+                       
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    
+    <!--Pie de pagina-->
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer" id="Conctacto">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            <p>Dirección</p>
+                            Manuel caballero 131, Col. La obrera, casi equina 5 de febrero, Cuidadde Mexico 06800
+                        </li>
+                        <li>Encargado: Martinez Garcia Fernando</li>
+                        <li>
+                            <p>Teléfono</p>
+                            52+ 55 6808-1606</li>
+                        <li>
+                            <p>EmaiL</p>
+                            publicidad131@gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+
+                        <span class="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+
+
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="Acerca.html">Acerca de Nosotros</a></li>
+                        <li><a href="terminos.html">Politicas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#Conctacto">Contactános</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Ubicación</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.0816124361663!2d-99.1402357260395!3d19.408879441440522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fee77754270d%3A0x60308ef34b31531a!2sManuel%20Caballero%20131%2C%20La%20Obrera%2C%20Cuauht%C3%A9moc%2C%2006800%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1716690760343!5m2!1ses!2smx" >
+                    width="300" 
+                    height="250"
+                </iframe>
+
+                    </iframe>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">Comentarios</p>
+
+                    <div class="content">
+                        <p>
+                            Comenta sobre tu experiencia con nosotros
+                        </p>
+                        <input type="comentario" placeholder="Ingresa tu comentario aquí...">
+                        <p>
+                            Correo
+                        </p>
+                        <input type="email" placeholder="Ingresa tu correo aquí...">
+                        <button>Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Derechos de autor_DigitalPrint... &copy; 2024
+                </p>
+                <img src="img/payment.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
+
+    <script
+        src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="js/menu.js"></script>
+    <script src="js/cript_index.js"></script>
+    
+</body>

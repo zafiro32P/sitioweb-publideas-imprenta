@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL | IMPRENTA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <!--Es para que gafarre los iconos-->
+		<link rel="stylesheet" href="css/estilos.css"/>
+		<script src="js/menu.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <img src="img/logo.png" width="110px" class="logo" alt="logo">
+                </div>
+                <div class="container-user">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <i class="fa-solid fa-user" onclick="window.location.href='index.html'"></i>
+                </div>
+            </div>
+        </div>
+         <!--Menu-->
+        <div class="container-navbar">
+            <nav class="navbar container">
+
+                    <section class="menu__container">
+                        <ul class="menu__links">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Inicio</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="categorias.html" class="menu__link">Categorias</a>
+                            </li>
+                
+                            <li class="menu__item menu__item--show">
+                                <a href="productos.html" class="menu__link">Productos</a>
+                            </li>
+                        </ul>
+                        <div class="menu__hamburguer">
+                            <img src="img/hamburguesa.svg" class="menu__img">
+                        </div>
+                    </section>
+                 <!--Barra de busqueda-->
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+   <!--Banner, trae la frase y un eslogan-->
+    <section class="banner">
+        <div class="content-banner">
+            <p>Somos la mejor opción</p>
+            <h2>MAS QUE <br />UNA IMPRESION</h2>
+            <p>Imprimimos todo para tu negocio, tarjetas de presentación, volantes, menús, credenciales,posters, postales</p>
+        </div>
+    </section>
+    <!--Empieza el Main-->
+    <main class="main-content">
+ <!--Categorias-->
+
+        <section class="container top-categories" id="categorias">
+            <h1 class="heading-1">Mejores Categorías</h1>
+            <div class="container-categories">
+                <div class="card-category category-pape" id="papeleria">
+                    <p>Papelería</p>
+                    <a href="papeleria.html"> ver mas </a>
+                </div>
+                <div class="card-category category-gf" id="formato">
+                    <p>Gran formato</p>
+                    <a href="granF.html"> ver mas </a>
+                </div>
+                <div class="card-category category-impre" id="person">
+                    <p>Personalizaciones</p>
+                    <a href="personalizacion.html"> ver mas </a>
+                </div>
+            </div>
+        </section>
+        <div class="content">
+            <button onclick="window.location.href='categorias.html'">Ver categorías</a></button> 
+         </div>
+
+          <!--Productos-->
+
+        <section class="container top-products" id="producto">
+            <h1 class="heading-1">Productos Destacados</h1>
+
+            <div class="container-products">
+                <!-- Producto 1 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/invitacion.jpg" alt="Cafe Irish" />
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Invitación</h3>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img
+                            src="img/tarjetaP.jpg"
+                            alt="Cafe incafe-ingles.jpg"
+                        />
+                        <span class="discount">-22%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Tarjeta de Presentación</h3>
+                    </div>
+                </div>
+                <!--  3-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img
+                            src="img/posters.jpg"
+                            alt="Cafe Australiano"
+                        />
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Posters Impresos</h3>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+            <div class="content">
+                <button onclick="window.location.href='productos.html'">Ver productos</a></button> 
+             </div>
+        </section>
+
+        <!--Galeria o portafolio-->
+
+        <section class="gallery" id="galeria">
+            <img src="img/img1.jpg" alt="Gallery Img1" class="gallery-img-1"/>
+            <img src="img/img2.jpg" alt="Gallery Img2" class="gallery-img-2"/>
+            <img src="img/img3.jpg" alt="Gallery Img3" class="gallery-img-3"/>
+            <img src="img/img4.jpg" alt="Gallery Img4" class="gallery-img-4"/>
+            <img src="img/img5.jpg" alt="Gallery Img5" class="gallery-img-5"/>
+        </section>
+
+        <!--Muestra los valores, mision, vision del negocio-->
+
+        <section class="container blogs">
+            <h1 class="heading-1">Acerca de</h1>
+
+            <div class="container-blogs">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/v1.png" alt="Mision" />
+                    </div>
+                    <div class="content-blog">
+                        <h3>Misión</h3>
+                        <p>
+                            Proporcionar soluciones de impresión de alta calidad que satisfagan y superen las expectativas de nuestros clientes. Nos comprometemos a ofrecer un servicio excepcional, utilizando tecnologías avanzadas y prácticas sostenibles.
+                        </p>
+                
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/v2.png" alt="vision" />
+                    </div>
+                    <div class="content-blog">
+                        <h3>Visión</h3>
+                        <p>
+                            Convertirnos en líderes del sector de la impresión reconocidos por nuestra calidad, servicio al cliente y compromiso con la sostenibilidad. Aspiramos a ser la primera opción para particulares que buscan soluciones de impresión personalizadas y eficientes.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/v3.png" alt="Valores" />
+                    </div>
+                    <div class="content-blog">
+                        <h3>Valores</h3>
+                        <p>
+                            La empresa valora la calidad, innovación, servicio al cliente, integridad y trabajo en equipo. Se compromete a ofrecer productos de alta calidad, innovar en tecnología de impresión, priorizar al cliente, actuar con honestidad y fomentar un ambiente colaborativo.							</p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!--Pie de pagina-->
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer" id="Conctacto">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            <p>Dirección</p>
+                            Manuel caballero 131, Col. La obrera, casi equina 5 de febrero, Cuidadde Mexico 06800
+                        </li>
+                        <li>Encargado: Martinez Garcia Fernando</li>
+                        <li>
+                            <p>Teléfono</p>
+                            52+ 55 6808-1606</li>
+                        <li>
+                            <p>EmaiL</p>
+                            publicidad131@gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+
+                        <span class="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+
+
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="Acerca.html">Acerca de Nosotros</a></li>
+                        <li><a href="terminos.html">Politicas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#Conctacto">Contactános</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Ubicación</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.0816124361663!2d-99.1402357260395!3d19.408879441440522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fee77754270d%3A0x60308ef34b31531a!2sManuel%20Caballero%20131%2C%20La%20Obrera%2C%20Cuauht%C3%A9moc%2C%2006800%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1716690760343!5m2!1ses!2smx" >
+                    width="300" 
+                    height="250"
+                </iframe>
+
+                    </iframe>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">Comentarios</p>
+
+                    <div class="content">
+                        <p>
+                            Comenta sobre tu experiencia con nosotros
+                        </p>
+                        <input type="comentario" placeholder="Ingresa tu comentario aquí...">
+                        <p>
+                            Correo
+                        </p>
+                        <input type="email" placeholder="Ingresa tu correo aquí...">
+                        <button>Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Derechos de autor_DigitalPrint... &copy; 2024
+                </p>
+                <img src="img/payment.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
+
+    <script
+        src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="js/menu.js"></script>
+    <script src="js/cript_index.js"></script>
+    
+</body>
+</html>
